@@ -1,0 +1,33 @@
+# Add this include to the consuming project's .gitlab-ci.yml to use the
+# reusable deploy pipeline.
+#
+# Before using it:
+# 1. Ensure the user starting the pipeline can read the private/internal
+#    oicm/deploy_1 project.
+# 2. Choose a ref (branch or tag) containing deploy.yml. Use a stable tag
+#    if you want pipeline changes to be versioned.
+# 3. Ensure the consuming repository contains requirements.txt and the book
+#    directory being built.
+#
+# The included jobs run against the consuming project's checkout. Set
+# BOOK_DIR and RELEASE as CI/CD variables in that project's Settings >
+# CI/CD > Variables, or uncomment/edit the variables block below.
+#
+# When viewing pipeline artifacts, users generally only need:
+# - built-book: the job artifact contains book.tar, with built HTML files at
+#   the tar root.
+# - log: the job artifact contains build.log and summary.md at its root.
+# The processing job is an intermediate hand-off; it is normally not needed.
+#
+# If the build fails, built-book is skipped while log still publishes the
+# build report. The pipeline itself remains failed.
+include:
+  - project: "oicm/resources/deploy_1"
+    ref: v0.0.1
+    file: "/deploy.yml"
+
+# Optional: set project-specific defaults here. These can also be set in
+# Settings > CI/CD > Variables; values set there take precedence.
+# variables:
+#   BOOK_DIR: "book"
+#   RELEASE: "main,release"

@@ -1,0 +1,5 @@
+# first list the packages you wish to download from PyPI
+teachbooks == 0.2.7 # depends on jupyter-book v1
+
+# The core functionality we offer is included in the extension,replace/add with individual extensions if you prefer some extensions not to be included (https://github.com/TUDelft-OILM/OILM-starterkit)
+git+https://github.com/TUDelft-OILM/OILM-starterkit@v0.1.2

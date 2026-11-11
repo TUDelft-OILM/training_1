@@ -1,0 +1,49 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+message: "If you use this open interactive learning material, please cite it using these metadata."
+title: '<title>' # replace with your own book title
+authors: #replace with your own name(s)
+- given-names: <given_name>
+  name-particle: <name_patricle>
+  family-names: <familiy_names>
+  email: <email>
+  affiliation: 'Delft University of Technology'
+  orcid: '<orcid'
+preferred-citation:
+  type: book
+  authors: # replace with your own name
+  - given-names: <given_name>
+    name-particle: <name_patricle>
+    family-names: <familiy_names>
+    email: <email>
+    affiliation: 'Delft University of Technology'
+    orcid: '<orcid'
+  url: 'https://gitlab.tudelft.nl/oicm/<repo_name>' # replace with your own repo URL
+  identifiers:
+    - type: url
+      value: '<url>' # replace with your own URL when you use this template
+      description: 'Published book online'
+    - type: url
+      value: 'https://gitlab.tudelft.nl/oicm/<repo_name>' # replace with your own repo URL
+      description: 'Git repository'
+  abstract: >- # replace with your own abstract
+    <text>
+  keywords: # replace with your own keywords
+    - '<text_with_spaces>'
+    - <text>
+
+  title: '<title>' # replace with your own book title
+  institution:
+    name: 'Delft University of Technology' # replace with your own institution when you use this template
+  license: CC-BY-4.0
+  license-url: 'https://creativecommons.org/licenses/by/4.0/'
+  copyright: '© 2025 Delft University of Technology'
+  languages:
+    - en # replace with your book language when you use this template
+  contact: # replace with your own contact information when you use this template
+  - email: <email>
+    given-names: <given_name>
+    name-particle: <name_patricle>
+    family-names: <familiy_names>

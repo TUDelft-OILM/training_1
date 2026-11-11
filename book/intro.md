@@ -1,9 +1,22 @@
-# Introduction
+# Introduction page
 
-```{figure} https://t.e7096c671.entry.domains/o_D0mmW-sdqfXwVePri-YZzIw2I=/1275x715/filters:strip_exif()/https%3A%2F%2Ffilelist.tudelft.nl%2FLibrary%2FCollecties%2FOnderwijsmateriaal%2FOpen%2520Interactive%2520Learning%2520Materials.png%3Fhash%3D4bf5354c29
+:::{admonition} Training Training JB-v1 TB and sphinx
+:class: exercise
+Try and recreate this OILM
+:::
+
+This is my example introduction page
+
+```{figure} https://upload.wikimedia.org/wikipedia/commons/1/1b/Zegel_Technische_Universiteit_Delft.svg
 :align: center
-:source: ...
-:class: dark-light
+:width: 50%
+:source: https://commons.wikimedia.org/wiki/File:Zegel_Technische_Universiteit_Delft.svg
+:license: CC-BY-SA-4.0
+:source: https://commons.wikimedia.org/wiki/File:Zegel_Technische_Universiteit_Delft.svg
+:author: NielsvSilfhout
+:date: 2024-03-31
+:number:
+:placement: caption
 ```
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**It has some bold text**
